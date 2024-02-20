@@ -1,0 +1,368 @@
+/*
+====================
+NAV STYLE
+====================
+*/
+
+nav{
+  background-color: white;
+  color: rgb(0, 0, 104);
+}
+i {
+  color: rgb(0, 0, 104);
+}
+
+.no-style-default {
+  text-decoration: none;
+  color: rgb(0, 0, 104);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*=== NAV HERO ===*/
+
+/*
+====================
+HERO STYLE
+====================
+*/
+
+.hero-img-container {
+  position: relative;
+  background-position: top;
+  background-size: contain;
+  min-height: 96vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+
+.hero-container {
+  height: 100%;
+  display: flex;
+    align-items: center;
+}
+
+.hero-no-color{
+  background-color: transparent;
+}
+
+/*=== HOME HERO ===*/
+
+/*
+====================
+HOME STYLE
+====================
+*/
+
+.text-pink{
+  color: rgb(255, 0, 128);
+}
+
+.text-white{
+  color: white;
+}
+
+.special-t{
+  font-size: 24px;
+}
+
+.pink-button{
+  background-color: rgb(255, 0, 128);
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+/*=== HOME STYLE ===*/
+
+/*
+====================
+FOOTER STYLE
+====================
+*/
+
+.margin-0{
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: rgb(0, 0, 104);
+  color: white;
+  font-size: 12px;
+}
+
+#footer p {
+  margin-bottom: 0;
+}
+
+/*=== FOOTER STYLE ===*/
+
+/*
+====================
+COCKTAIL SEARCH SECTION STYLE
+====================
+*/
+
+#drink{
+  border: solid 1px lightslategrey;
+  border-radius: 2rem;
+  padding: 3px;
+}
+
+#magnifying-glass{
+  border: none;
+  background-color: transparent;
+}
+
+#cocktail-result-count, .text-gray{
+  color: rgb(174, 174, 174);
+}
+
+
+/*=== COCKTAIL SEARCH SECTION STYLE
+ ===*/
+
+ /*
+====================
+ABOUT US PAGE STYLE
+====================
+*/
+
+.pink-hr{
+  border: solid 1px rgb(255, 0, 128);
+  width: 41%;
+  margin: 0 auto;
+}
+
+.text-blue{
+  color: rgb(0, 0, 104);
+}
+
+#il-nostro-progetto-section{
+  background-color: rgb(242, 241, 241);
+}
+
+.resize-icon{
+  font-size: 1.5rem;
+}
+
+
+.about-us-card{
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  background-color: white;
+}
+
+.text-white{
+  color: white;
+}
+
+.about-us-card:hover{
+  transform: scale(1.05); /* Rende la card leggermente più grande */
+  background-color:rgb(0, 0, 104);
+  color: white;
+}
+
+.team-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 5rem;
+}
+
+.rule{
+  font-size: 8px;
+}
+/*=== ABOUT US PAGE STYLE
+ ===*/
+
+ /*
+====================
+COCKTAIL SEARCH SECTION STYLE
+====================
+*/
+
+.input-edge{
+  border: none;
+}
+
+#form{
+  border: none;
+  border-radius: 1rem;
+}
+
+/*=== COCKTAIL SEARCH SECTION STYLE
+ ===*/
+
+ 
+ /*
+====================
+COCKTAIL HOME CARD STYLE
+====================
+*/
+
+.font-small{
+  font-size: 12px;
+}
+.font-medium{
+  font-size: 16px;
+}
+
+/*=== COCKTAIL HOME CARD STYLE
+ ===*/
+
+ /*
+====================
+SIDEBAR STYLE
+====================
+*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  background: white;
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+
+.sidebar-content {
+  height: 50%;
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  gap: 2rem;
+}
+
+.sidebar .nav-header {
+  margin: 0;
+  height: 4rem;
+}
+
+.sidebar .nav-header .nav-icon {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.sidebar-links {
+  display: grid;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  display: grid;
+  place-items: flex-start;
+  gap: 1rem;
+  font-size: 1.2em;
+}
+
+.sidebar-links .nav-item {
+  width: 100%;
+  padding: 0.5rem 0rem;
+}
+
+.sidebar-social {
+  width: fit-content;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  display: -moz-grid;
+  display: -ms-grid;
+  display: -webkit-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.nav-item:hover .nav-link .nav-icon {
+  transform: scale(1.1);
+  color: var(--flickr-pink) !important;
+}
+
+.show-sidebar {
+  transform: translateX(0%) !important;
+}
+
+/*
+====================
+SIDEBAR MEDIA QUERY STYLE
+====================
+*/
+
+@media screen and (min-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+  .nav-toggler {
+    display: none;
+  }
+  .sidebar-align {
+    display: flex;
+  }
+  .sidebar-details-row{
+    display: flex;
+    align-items: center;
+  }
+  .sidebar-details-row{
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+
+  
+}
+
+
+@media screen and (max-width: 720px) {
+  .nav-ul {
+    display: none;
+  }
+
+  .sidebar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-details-col{
+    display: flex;
+  justify-content: flex-end;
+  }
+
+  .find-drink{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding-left: 2rem;
+   }
+}
+
+
+
+/*
+====================
+END SIDEBAR STYLE
+====================
+*/
